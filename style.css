@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    color: #fff;
 }
 
 body{
@@ -49,17 +50,55 @@ body{
 #input-box{
     display: flex;
     background: #252526;
-    border-radius: 30px;
     border: none;
     outline: none;
     background:transparent;
+    /* border: 2px solid #c91010; */
+    height: 2em;
+
 }
 
 
-.add-button{
+#add-button{
     display:flex;
+    /* border: 1px solid #fff; */
+    border-radius: 30px;
+    height: 2em;
+    width: 4em;
+    background: #1b79c8;
+    align-items: center;
+    padding-left: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    transition:0.3s;
+}
+
+#add-button:hover{
+    box-shadow: 0 0 25px #2fd8eb, 0 0 25px #2fd8eb, 0 0 10px #2fd8eb;
 }
 
 .task-list{
-    /* border: 2px solid #10d83b; */
+    
+    list-style: none;
+    width: 20em;
+}
+
+.task-list li{
+    padding: 1em;
+    display:flex;
+}
+
+.task-list li::before{
+    content: '';
+    background-color: #fff;
+    border-radius: 50%;
+    height: 1.25em;
+    width: 1.25em;
+    margin-right: 1em;
+}
+
+.task-list li.done{
+    color: #6b6b6b;
+    text-decoration: line-through;
 }
