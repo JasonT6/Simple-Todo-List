@@ -79,6 +79,7 @@ body{
     font-size: 16px;
     justify-content: center;
     text-align: center;
+    cursor: pointer;
 }
 
 #add-button:hover{
@@ -86,9 +87,9 @@ body{
 }
 
 .task-list{
-    
     list-style: none;
     width: 20em;
+    cursor: pointer;
 }
 
 .task-list li{
@@ -101,9 +102,10 @@ body{
     background-color: #fff;
     border-radius: 50%;
     height: 1.25em;
-    width: 1.25em;
+    min-width: 1.25em;
     margin-right: 1em;
     transition: 0.3s;
+    
 }
 
 .task-list li.done{

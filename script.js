@@ -12,7 +12,6 @@ function addTask(){
 
 inputBox.addEventListener("keyup", function(e){
     if (e.key === "Enter") {
-      e.preventDefault();
       addTask();
     }
 });
