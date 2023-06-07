@@ -13,6 +13,7 @@ body{
     min-height: 100vh;
     min-width: 100vw;
     padding: 10px;
+    background-image: linear-gradient(to bottom right,#010b1c, #004b2c);
 }
 
 .container{
@@ -21,10 +22,11 @@ body{
     max-width: 30em;
     margin: 10em auto 1em;
     border-radius: 30px;
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     flex-direction: column;
     background-color: #0f0f0f;
     padding: 3em 2em;
+    background-image: linear-gradient(to bottom right, #008a50, #063381);
 }
 
 .title{
