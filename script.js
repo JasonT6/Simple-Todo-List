@@ -10,6 +10,14 @@ function addTask(){
     inputBox.value = "";
 }
 
+inputBox.addEventListener("keyup", function(e){
+    if (e.key === "Enter") {
+      e.preventDefault();
+      addTask();
+    }
+});
+
+
 taskList.addEventListener("click", function(e){
     if (e.target.tagName === "LI"){
         e.target.classList.toggle('done');
