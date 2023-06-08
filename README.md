@@ -2,4 +2,4 @@
 
 Simple to-do list made with html, css, and javascript
 
-Try it here:
+Try it here: https://jasont6.github.io/Simple-Todo-List/
